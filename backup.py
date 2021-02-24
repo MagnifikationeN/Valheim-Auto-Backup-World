@@ -1,11 +1,15 @@
-import os
-import sys
-import shutil
-import time
+import os,os.path,sys,shutil,time
 from datetime import datetime
+from os import path
 
 user = sys.argv[1]
 worldName = sys.argv[2]
+
+if path.exists('C:/Users/' + user + '/AppData/LocalLow/IronGate/Valheim/Backup/'):
+    True
+else:
+    print('Created Backup folder in C:/Users/' + user + '/AppData/LocalLow/IronGate/Valheim/')
+    os.mkdir('C:/Users/' + user + '/AppData/LocalLow/IronGate/Valheim/Backup/')
 
 while True:
     
