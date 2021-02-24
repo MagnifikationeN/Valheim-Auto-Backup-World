@@ -1,4 +1,4 @@
-# Valheim-Backup-World
+# Valheim-Auto-Backup-World
 Backups your valheim world every 1 hour
 
 download py script start it when you start your server.
